@@ -41,7 +41,6 @@ header > P {
     color: #9c9c6d;
     font-style: italic;
     display: block;
-    padding-top: ;
 }
 
 .menu > a {
@@ -62,6 +61,24 @@ header > P {
 
 .introducao > img {
     display: flex;
+}
+
+input {
+    color: var(--cor4);
+    background-color: #9c9c6d;
+    font-family: var(--font1);
+    font-size: 20px;
+    border-radius: 50px 50px;
+    width: 300px;
+    padding: 10px;
+    position: absolute;
+    left: 55%;
+    top: 60%;
+
+}
+
+input:hover {
+    
 }
 
 
