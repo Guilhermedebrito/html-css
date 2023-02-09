@@ -63,7 +63,11 @@ header > P {
 }
 
 .introducao > img {
-    display: flex;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 350px;
 }
 
 input {
@@ -124,3 +128,13 @@ main {
 }
 
 
+.containervinho1 > img{
+    
+}
+.containervinho1 {
+    display: flex;
+}
+
+.containertexto1 {
+
+}
