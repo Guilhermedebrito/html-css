@@ -174,3 +174,14 @@ footer {
   padding: 1em;
   background-image: linear-gradient(to bottom, var(--cor4), var(--cor5));
 }
+
+footer > p > a {
+  color: azure;
+  text-decoration: none;
+  text-shadow: 6px 6px 15px black;
+}
+
+footer > p > a:hover {
+  color: var(--cor1);
+  font-size: 17px;
+}
